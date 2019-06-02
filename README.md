@@ -4,11 +4,11 @@ A tool for recovering BIP39 seed phrases.
 
 For more context and background, please see our blog post https://medium.com/kzen-networks/the-wallet-seed-saviors-2cad8ae542f3 
 
-The tool is based on the bip39 project by Ian Coleman https://github.com/iancoleman/bip39
+The tool is based on the bip39 project by Ian Coleman https://github.com/iancoleman/bip39 and is a minimally modifed version of the Seed Savior Tool found here: https://kzen-networks.github.io/mnemonic-recovery/ It's possible the changes I added will be merged into the main project, but I have forked it in the mean time while I add some interface tweaks to make it a bit more n00b friendly.
 
 ## Online Version
 
-https://kzen-networks.github.io/mnemonic-recovery/src/index.html
+https://github.com/3rdIteration/mnemonic-recovery/src/index.html
 
 ## Standalone offline version
 

@@ -316,13 +316,15 @@ function DerivePublicAddresses(phrase, word = "(no missing word)")
      var address84 = DerivePublicAddress(path84)
      var pathEth = "m/44'/60'/0'/0";
      var addressEth = DerivePublicAddress(pathEth)
+     var pathEth32 = "m/44'/60'/0'";
+     var addressEth32 = DerivePublicAddress(pathEth32)
  
  
  
  
         var html = '';
          html = '<tr><td>' + word +
-         '&nbsp</td><td>&nbsp' + createAddressUrl(address44,'btc') +  '&nbsp</td><td>&nbsp' + createAddressUrl(address49,'btc') + '&nbsp</td><td>&nbsp' + createAddressUrl(address84,'btc')  + '&nbsp</td><td>&nbsp' + createAddressUrl(addressEth, 'eth') + '&nbsp</td></tr>';
+         '&nbsp</td><td>&nbsp' + createAddressUrl(address44,'btc') +  '&nbsp</td><td>&nbsp' + createAddressUrl(address49,'btc') + '&nbsp</td><td>&nbsp' + createAddressUrl(address84,'btc')  + '&nbsp</td><td>&nbsp' + createAddressUrl(addressEth, 'eth') +  '&nbsp</td><td>&nbsp' + createAddressUrl(addressEth32,'eth') + '&nbsp</td></tr>';
  
  DOM.addressesRecovered.append(html);
  

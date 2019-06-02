@@ -13,7 +13,7 @@
         <div class="container">
 
             <h1 class="text-center">Seed Savior: Mnemonic Phrase Recovery Tool</h1>
-            <p class="version">v0.1</p>
+            <p class="version">v0.1-iteration</p>
             <hr>
             <div class="row">
                 <div class="col-md-12">
@@ -65,22 +65,27 @@
                                 </th>
                                 <th>
                                     <div class="input-group">
-                                        <span>BIP44 BTC Address</span>&nbsp;&nbsp;
+                                        <span>BIP44 BTC Address <br><i>(m/44'/0'/0'/0 Legacy Bitcoin Address)</i></span>&nbsp;&nbsp;
                                     </div>
                                 </th>
                                 <th>
                                     <div class="input-group">
-                                        <span>BIP49 BTC Address</span>&nbsp;&nbsp;
+                                        <span>BIP49 BTC Address <br><i>(m/49'/0'/0'/0 Segwit Bitcoin Address)</i></span>&nbsp;&nbsp;
                                     </div>
                                 </th>
                                 <th>
                                     <div class="input-group">
-                                        <span>BIP84 BTC Address</span>&nbsp;&nbsp;
+                                        <span>BIP84 BTC Address <br><i>(m/84'/0'/0'/0 Bech32 Bitcoin Address)</i></span>&nbsp;&nbsp;
                                     </div>
                                 </th>
                                 <th>
                                     <div class="input-group">
-                                        <span>BIP44 ETH Address</span>&nbsp;&nbsp;
+                                        <span>BIP44 ETH Address <br><i>(m/44'/60'/0'/0 Ledger Live, Trezor, Jaxx, etc)</i></span>&nbsp;&nbsp;
+                                    </div>
+                                </th>
+								<th>
+                                    <div class="input-group">
+                                        <span>BIP32 ETH Address <br><i>( m/44'/60'/0' Legacy Ledger, Coinomi)</i></span>&nbsp;&nbsp;
                                     </div>
                                 </th>
                                 
@@ -98,7 +103,7 @@
                 <div class="col-md-12">
                     <h2>License</h2>
                     <p>
-                    <span>Please refer to <a href="https://github.com/KZen-networks/mnemonic-recovery/blob/master/LICENSE" target="_blank">the software license</a> for more detail.
+                    <span>Please refer to <a href="https://github.com/3rdIteration/mnemonic-recovery/blob/master/LICENSE" target="_blank">the software license</a> for more detail.
                     </span>
                     </p>
                     <p>The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.</p>
@@ -144,7 +149,7 @@
                     <p>
                     <span>Alternatively, download the file from the repository</span>
                     -
-                    <a href="https://github.com/KZen-networks/mnemonic-recovery/">https://github.com/KZen-networks/mnemonic-recovery/</a>
+                    <a href="https://github.com/3rdIteration/mnemonic-recovery/">https://github.com/3rdIteration/mnemonic-recovery/</a>
                     </p>
 
                 </div>
@@ -160,19 +165,29 @@
                     <p>
                         <span>Get the source code from the repository</span>
                         -
-                        <a href="https://github.com/KZen-networks/mnemonic-recovery" target="_blank">
-                            https://github.com/KZen-networks/mnemonic-recovery
+                        <a href="https://github.com/3rdIteration/mnemonic-recovery" target="_blank">
+                            https://github.com/3rdIteration/mnemonic-recovery
                         </a>
                     </p>
                     
                     <p>
-                    <span>The project is based on Ian Coleman's Bip39 project. Get Bip39's source code from the repository</span>
-                    -
-                    <a href="https://github.com/iancoleman/bip39" target="_blank">
-                        https://github.com/iancoleman/bip39
-                    </a>
-                    </p>
-
+						<span>The project is based on Ian Coleman's Bip39 project. Get Bip39's source code from the repository</span>
+						-
+						<a href="https://github.com/iancoleman/bip39" target="_blank">
+							https://github.com/iancoleman/bip39
+						</a>
+					</p>
+					
+					<p>
+						<span>The tool is a minimally modifed version of the Seed Savior Tool found here:</span>
+						-
+						<a href="https://kzen-networks.github.io/mnemonic-recovery/" target="_blank">
+							https://kzen-networks.github.io/mnemonic-recovery/
+						</a>
+						<br>
+						<span><i>It's possible the changes I added will be merged into the main project, but I have forked it in the mean time while I add some interface tweaks to make it a bit more n00b friendly.</i></span>
+					</p>
+		  
                     <h3>Libraries</h3>
 
                     <p>
