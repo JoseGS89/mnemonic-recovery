@@ -1,10 +1,19 @@
-# Seed Savior
+# Seed Savior-Iteration
 
-A tool for recovering BIP39 seed phrases.
+A fork of tool for recovering BIP39 seed phrases.
 
-For more context and background, please see our blog post https://medium.com/kzen-networks/the-wallet-seed-saviors-2cad8ae542f3 
+Getting any of the following errors...
 
-The tool is based on the bip39 project by Ian Coleman https://github.com/iancoleman/bip39 and is a minimally modifed version of the Seed Savior Tool found here: https://kzen-networks.github.io/mnemonic-recovery/ It's possible the changes I added will be merged into the main project, but I have forked it in the mean time while I add some interface tweaks to make it a bit more n00b friendly.
+Trezor: Recovery failed. Error details: Mnemonic is not valid
+Ledger: Invalid recovery phrase
+Invalid mnemonic...
+
+Any of the above errors can really ruin your day, especially if you have lost/damanged/reset your hardware wallet. The aim of this tool is to be a 1st (and hopefully only) step required to recover your 24 word seed. It is quick and easy to understand and will work on any system with nothing more than a browser. If you don't have success with this tool, then you can try BTCRecover, (https://github.com/gurnec/btcrecover) though it hasn't been updated in some time.
+
+The tool is based on the bip39 project by Ian Coleman https://github.com/iancoleman/bip39 and is a minimally modifed version of the Seed Savior Tool found here: https://kzen-networks.github.io/mnemonic-recovery/ It's possible the changes I added will be merged into the main project, but I have forked it in the mean time while I add some interface tweaks to make it a bit more n00b friendly. I can also look at adding the 1st public address for coins to the UI as long as they are already included in tools like Ian Coleman's if there is sufficient demand. (Because why reinvent the wheel...)
+
+For more context and background of the original tool, please see our blog post https://medium.com/kzen-networks/the-wallet-seed-saviors-2cad8ae542f3 
+
 
 ## Online Version
 
