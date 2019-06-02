@@ -8,7 +8,7 @@ The tool is based on the bip39 project by Ian Coleman https://github.com/iancole
 
 ## Online Version
 
-https://github.com/3rdIteration/mnemonic-recovery/src/index.html
+https://3rditeration.github.io/mnemonic-recovery/src/index.html
 
 ## Standalone offline version
 
