@@ -14,12 +14,12 @@ The tool is based on the bip39 project by Ian Coleman https://github.com/iancole
 
 For more context and background of the original tool, please see the blog post https://medium.com/kzen-networks/the-wallet-seed-saviors-2cad8ae542f3 
 
-If this was helpful, feel free to send me a tip:
-BTC: bc1qfwcpveqn6se8ylvm6pelueq09z0rxevdeyeex5
-LTC: ltc1qfsyf8u8wxk6tt2sr0pgpy96n9kwa7dlkkttfhp
-ETH: 0x14b2E26021d0Ce8E2cE6a2Eb6E2690714bB18E17
-VTC: vtc1qxauv20r2ux2vttrjmm9eylshl508q04uju936n
-ZEN: znUihTHfwm5UJS1ywo911mdNEzd9WY9vBP7
+<b><i>If this was helpful, feel free to send me a tip:</b></i>
+<br>BTC: bc1qfwcpveqn6se8ylvm6pelueq09z0rxevdeyeex5
+<br>LTC: ltc1qfsyf8u8wxk6tt2sr0pgpy96n9kwa7dlkkttfhp
+<br>ETH: 0x14b2E26021d0Ce8E2cE6a2Eb6E2690714bB18E17
+<br>VTC: vtc1qxauv20r2ux2vttrjmm9eylshl508q04uju936n
+<br>ZEN: znUihTHfwm5UJS1ywo911mdNEzd9WY9vBP7
 
 ## Online Version
 
