@@ -16,7 +16,7 @@ For more context and background of the original tool, please see the blog post h
 
 <b><i>If this was helpful, feel free to send me a tip:</b></i>
 <br>BTC: 37hiiSB1Poj6Shs8WawPS2HjT2jzHkFSQi
-<br>LTC: ltc1qfsyf8u8wxk6tt2sr0pgpy96n9kwa7dlkkttfhp
+<br>LTC: MRWnUcsyofisVp5GvX7nxMog5caneycKZ6
 <br>ETH: 0x14b2E26021d0Ce8E2cE6a2Eb6E2690714bB18E17
 <br>VTC: vtc1qxauv20r2ux2vttrjmm9eylshl508q04uju936n
 <br>ZEN: znUihTHfwm5UJS1ywo911mdNEzd9WY9vBP7
