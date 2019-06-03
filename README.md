@@ -5,8 +5,8 @@ A fork of tool for recovering BIP39 seed phrases.
 Getting any of the following errors...
 
 Trezor: Recovery failed. Error details: Mnemonic is not valid
-Ledger: Invalid recovery phrase
-Invalid mnemonic...
+<br>Ledger: Invalid recovery phrase
+<br>Invalid mnemonic...
 
 Any of the above errors can really ruin your day, especially if you have lost/damanged/reset your hardware wallet. The aim of this tool is to be a 1st (and hopefully only) step required to recover your 24 word seed. It is quick and easy to understand and will work on any system with nothing more than a browser. If you don't have success with this tool, then you can try BTCRecover, (https://github.com/gurnec/btcrecover) though it hasn't been updated in some time.
 
