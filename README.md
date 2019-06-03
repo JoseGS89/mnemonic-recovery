@@ -10,10 +10,16 @@ Invalid mnemonic...
 
 Any of the above errors can really ruin your day, especially if you have lost/damanged/reset your hardware wallet. The aim of this tool is to be a 1st (and hopefully only) step required to recover your 24 word seed. It is quick and easy to understand and will work on any system with nothing more than a browser. If you don't have success with this tool, then you can try BTCRecover, (https://github.com/gurnec/btcrecover) though it hasn't been updated in some time.
 
-The tool is based on the bip39 project by Ian Coleman https://github.com/iancoleman/bip39 and is a minimally modifed version of the Seed Savior Tool found here: https://github.com/KZen-networks/mnemonic-recovery It's possible the changes I added will be merged into the main project, but I have forked it in the mean time while I add some interface tweaks to make it a bit more n00b friendly. I can also look at adding the 1st public address for other coins to the UI as long as they are already included in tools like Ian Coleman's if there is sufficient demand.
+The tool is based on the bip39 project by Ian Coleman https://github.com/iancoleman/bip39 and is a minimally modifed version of the Seed Savior Tool found here: https://github.com/KZen-networks/mnemonic-recovery It's possible the changes I added will be merged into the main project, but I have forked it in the mean time while I add some interface tweaks to make it a bit more n00b friendly, useful for more coins as-is and with examples of extra coins that are easy to extend as required. I can also look at adding the 1st public address for other coins to the UI as long as they are already included in the bitcoinjs library, though you will notice that all the extra address generation makes this tool take far longer to test addresses than the original seed-savior. (Though still quick enough to be useful in my opinion)
 
 For more context and background of the original tool, please see the blog post https://medium.com/kzen-networks/the-wallet-seed-saviors-2cad8ae542f3 
 
+If this was helpful, feel free to send me a tip:
+BTC: bc1qfwcpveqn6se8ylvm6pelueq09z0rxevdeyeex5
+LTC: ltc1qfsyf8u8wxk6tt2sr0pgpy96n9kwa7dlkkttfhp
+ETH: 0x14b2E26021d0Ce8E2cE6a2Eb6E2690714bB18E17
+VTC: vtc1qxauv20r2ux2vttrjmm9eylshl508q04uju936n
+ZEN: znUihTHfwm5UJS1ywo911mdNEzd9WY9vBP7
 
 ## Online Version
 
